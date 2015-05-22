@@ -14,6 +14,8 @@
 		748A01B21B0D2A7000F89AA0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 748A01B11B0D2A7000F89AA0 /* Images.xcassets */; };
 		748A01B51B0D2A7000F89AA0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 748A01B31B0D2A7000F89AA0 /* LaunchScreen.xib */; };
 		748A01C11B0D2A7000F89AA0 /* buttonImgTutorialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 748A01C01B0D2A7000F89AA0 /* buttonImgTutorialTests.m */; };
+		748A01CB1B0D2ABF00F89AA0 /* botaoVerprevisao.png in Resources */ = {isa = PBXBuildFile; fileRef = 748A01CA1B0D2ABF00F89AA0 /* botaoVerprevisao.png */; };
+		74EE0BDF1B0E5AFD009EB661 /* botaoVoltar.png in Resources */ = {isa = PBXBuildFile; fileRef = 74EE0BDE1B0E5AFD009EB661 /* botaoVoltar.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		748A01BA1B0D2A7000F89AA0 /* buttonImgTutorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = buttonImgTutorialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		748A01BF1B0D2A7000F89AA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		748A01C01B0D2A7000F89AA0 /* buttonImgTutorialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = buttonImgTutorialTests.m; sourceTree = "<group>"; };
+		748A01CA1B0D2ABF00F89AA0 /* botaoVerprevisao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = botaoVerprevisao.png; sourceTree = "<group>"; };
+		74EE0BDE1B0E5AFD009EB661 /* botaoVoltar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = botaoVoltar.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 		748A01A41B0D2A7000F89AA0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				748A01CA1B0D2ABF00F89AA0 /* botaoVerprevisao.png */,
+				74EE0BDE1B0E5AFD009EB661 /* botaoVoltar.png */,
 				748A01A51B0D2A7000F89AA0 /* Info.plist */,
 				748A01A61B0D2A7000F89AA0 /* main.m */,
 			);
@@ -201,6 +207,8 @@
 			files = (
 				748A01B01B0D2A7000F89AA0 /* Main.storyboard in Resources */,
 				748A01B51B0D2A7000F89AA0 /* LaunchScreen.xib in Resources */,
+				748A01CB1B0D2ABF00F89AA0 /* botaoVerprevisao.png in Resources */,
+				74EE0BDF1B0E5AFD009EB661 /* botaoVoltar.png in Resources */,
 				748A01B21B0D2A7000F89AA0 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +424,7 @@
 				748A01C61B0D2A7000F89AA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		748A01C71B0D2A7000F89AA0 /* Build configuration list for PBXNativeTarget "buttonImgTutorialTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +433,7 @@
 				748A01C91B0D2A7000F89AA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
